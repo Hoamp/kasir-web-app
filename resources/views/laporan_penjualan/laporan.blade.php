@@ -24,7 +24,7 @@
                         <td>{{ $loop->iteration }}</td>
                         <td>{{ $p->kode_penjualan }}</td>
                         <td>{{ $p->tanggal }}</td>
-                        <td align="right">Rp. {{ number_format($p->total_harga, '2', '.'); }}</td>
+                        <td align="right">Rp. {{ number_format($p->total_harga, '2', '.') }}</td>
                     </tr>
                 @endforeach
             </tbody>
